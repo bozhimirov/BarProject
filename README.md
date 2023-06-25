@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# A Digital Bar where you can have a digital BeeR (or a CoffeE) NFT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live demo at: https://project-bar.vercel.app/
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+- Clone the repository
 
-### `npm start`
+```
+git clone https://github.com/bozhimirov/BarProject
+```
+
+- Install dependencies
+
+```
+cd BarProject
+npm install
+```
+
+- Build and run the project
+
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+This is a digital bar where you can get a digital BeeR NFT and/or a digital CoffeE NFT. You have to connect with your wallet (for example Metamask). The you are already in the Bar where you can mint yourself an NFT with a click of a button. It will cost you nothing and you have to pay only for the gas of the transaction. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The NFTs live on Sepolia test network. You have to change the network from your wallet. You will need some ethers, so go to [https://sepoliafaucet.com/](https://sepoliafaucet.com/) and get some. You can get 0.5 sepolia ethers once every day. 
 
-### `npm run build`
+After you mint yourself NFT, you have to open transaction and view it on block explorer(just follow the link from status of transaction in your Metamask). 
+Check for "ERC-721 Tokens Transferred:" and click to see NFT details. There you can find contract address and token ID. These you have to write in your Metamask just to visualize your NFT.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Return to Metamask and click on NFTs section. There is a link: Import NFTs(if you don't see it go to Expand view). Here you put contract address and token ID. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cheers!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
