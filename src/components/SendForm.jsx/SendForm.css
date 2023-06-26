@@ -1,9 +1,6 @@
 .form-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: block;
   align-items: center;
-  margin-top: -40px;
 }
 
 .message {
@@ -15,24 +12,11 @@
 }
 
 .send-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
+  width: 260px;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.703);
-}
-
-.send-form:first-child {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.703);
-  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .send-form label {
